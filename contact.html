@@ -10,8 +10,6 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/elegant-icons.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
-
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
 
@@ -39,11 +37,11 @@
 			</div>
 		</div>
 		<ul class="main-menu">
-			<li><a href="index.html" class="active">Home</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="gallery.html">Gallery</a></li>
 			<li><a href="blog.html">Blog</a></li>
 			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="contact.html" class="active">Contact</a></li>
 		</ul>
 		<div class="menu-footer">
 			<div class="footer-social">
@@ -61,7 +59,7 @@
 	<!-- Header section -->
 	<header class="header-section">
 		<a href="./index.html" class="site-logo">
-			<img src="img/logo.svg"  alt="">
+			<img src="img/logo.png" alt="">
 		</a>
 		<div class="menu-switch" id="menu-canvas-show">
 			<i class="icon_menu"></i>
@@ -69,30 +67,38 @@
 	</header>
 	<!-- Header section end -->
 
-	<!-- Hero section -->
-	<section class="hero-section">
-		<div class="hero-slider owl-carousel">
-			<div class="hero-item">
-				<div class="hero-text">
-					<div class="ht-cata">Mobile App</div>
-					<h2>Lesja</h2>
-					<p>Lesja adalah aplikasi manajemen stok yang berfokus pada audit harga dan produksi barang, dibuat khusus untuk Lestari Jaya (salah satu supplier spare part otomotif di Semarang). Audit stok lebih mudah dilakukan dimana saja dan kapan saja. Fitur utamanya seperti Setting harga, Audit stok, Mutasi stok, Pemusnahan stok, Assembly, Repacking. Tech stack: Push notification.</p>
-					<a href="#" class="ht-btn">See More <i class="arrow_right"></i></a>
+	<!-- Contact section -->
+	<section class="contact-section">
+		<div class="contact-warp set-bg" data-setbg="img/blog/big.jpg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="contact-info">
+							<h4>Information</h4>
+							<div class="ci-item"><i class="icon_phone"></i>(12)-100-100-100</div>
+							<div class="ci-item"><i class="icon_mail"></i>Info.colorlib@gmail.com</div>
+						</div>
+						<div class="contact-info">
+							<h4>Address</h4>
+							<div class="ci-item"><i class="icon_pin"></i>Iris Watson, Mary land, United State, New York City</div>
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<form class="contact-form">
+							<label for="y-name">Your Name:</label>
+							<input type="text" id="y-name">
+							<label for="y-email">Email Address:</label>
+							<input type="text" id="y-email">
+							<label for="y-msg">Leave A Message:</label>
+							<textarea id="y-msg"></textarea>
+							<button class="site-btn">Send Us Now</button>
+						</form>
+					</div>
 				</div>
-				<div class="hi-bg set-bg" data-setbg="img/lesja.jpg"></div>
-			</div>
-			<div class="hero-item">
-				<div class="hero-text">
-					<div class="ht-cata">Mobile App</div>
-					<h2>PIT Perdoski</h2>
-					<p>Pertemuan Ilmiah Tahunan PERHIMPUNAN DOKTER SPESIALIS KULIT DAN KELAMIN INDONESIA (PIT PERDOSKI), merupakan agenda tetap bagi para ahli Indonesia yang terhimpun ke dalam organisasi PERDOSKI. Forum ini merupakan ajang tanggung jawab professional dalam rangka meningkatkan kapasitas keilmuan serta responnya terhadap berbagai tantangan yang dihadapi saat ini dan masa datang.</p>
-					<a href="#" class="ht-btn">See More <i class="arrow_right"></i></a>
-				</div>
-				<div class="hi-bg set-bg" data-setbg="img/pit.jpg"></div>
 			</div>
 		</div>
 	</section>
-	<!-- Hero section end -->
+	<!-- Contact section end -->
 
 	<!-- Footer section -->
 	<footer class="footer-section">
