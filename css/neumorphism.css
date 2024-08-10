@@ -6188,7 +6188,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-toggler {
-    padding: 0.25rem 2rem;
+    padding: 0.25rem;
     font-size: 1.25rem;
     line-height: 1;
     background-color: transparent;
@@ -10912,9 +10912,9 @@ button.bg-slack:focus {
     position: absolute !important;
 }
 
-.position-fixed, .headroom--pinned, .headroom--unpinned {
+/* .position-fixed, .headroom--pinned, .headroom--unpinned {
     position: fixed !important;
-}
+} */
 
 .position-sticky {
     position: -webkit-sticky !important;
