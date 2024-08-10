@@ -25444,7 +25444,6 @@ button.section-slack:focus {
 @media (min-width: 576px) {
     .section {
         position: relative;
-        padding-top: 6rem;
         padding-bottom: 6rem;
     }
 
@@ -25464,8 +25463,7 @@ button.section-slack:focus {
         padding-bottom: 10rem;
     }
 
-    .section-lg {
-        padding-top: 8rem;
+    .section-lg { 
         padding-bottom: 8rem;
     }
 
