@@ -4,6 +4,8 @@
 
 ## Social Media
 
+Web: <https://mitraaplikasiteknologi.com>
+
 LinkedIn: <https://www.linkedin.com/company/pt-mitra-aplikasi-teknologi>
 
 GitHub: <https://github.com/mitraptek/profile>
